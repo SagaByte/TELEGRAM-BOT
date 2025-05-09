@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "main.py", // هنا تحط اسم ملف البايثون
+            "src": "main.py",
             "use": "@vercel/python",
             "config": { "maxLambdaSize": "30mb" }
         }
@@ -10,11 +10,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "main.py" // كذلك هنا تغير حسب الي سميته
+            "dest": "main.py" 
         }
     ],
     "env": {
         "TELEGRAM_BOT_TOKEN": "@telegram_bot_token_env",
-        "TELEGRAM_ADMIN_ID": "@telegram_admin_id_env" // هنا راح يطلبهن vercel منك أو انت تسوي مفاتيخ
+        "TELEGRAM_ADMIN_ID": "@telegram_admin_id_env"
     }
 }
