@@ -6,7 +6,7 @@ import os
 # يمنع تغيير الحقوق مـايكي>>
 #https://t.me/SSUU_R
 
-TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+TOKEN = os.environ.get('7808491799:AAFch33-RVNp6R7hXPUnYxUwSEaGIOXtRsg')
 ADMIN_ID = int(os.environ.get('TELEGRAM_ADMIN_ID', 7261987706)) # القيمة الافتراضية إذا لم يتم تعيين متغير البيئة
 
 if not TOKEN:
