@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
 </p>
 
-<h1 align="center">بوت تواصل (تليجرام)</h1>
+<h1 align="center">بوت تواصل</h1>
 
 ## هلا والله 👋
 
